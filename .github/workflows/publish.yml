@@ -23,6 +23,7 @@ jobs:
       run: |
         . .venv/bin/activate
         make html
+        touch _build/html/.nojekyll
     - name: Push the docs
       uses: peaceiris/actions-gh-pages@v4
       with:
