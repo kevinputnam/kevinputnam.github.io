@@ -26,6 +26,7 @@ I offer support for Sphinx-based documentation projects including:
 - Custom Directives/Roles/Extensions (Python)
 - Theme layout and appearance (CSS/HTML/JS)
 - API documentation integration including Doxygen
+- Source conversion to Open Source friendly formats (Markdown or reStructuredText)
 - Custom output targets (e.g. DITA)
 - Support for Internationalization (`.po` files)
 - Automated build and deployment
