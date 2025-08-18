@@ -2,6 +2,8 @@
 
 Let me help you streamline your documentation publishing workflow. We'll figure out how to get from where you are to where you want to be whether you just need training or full technical support. I specialize in Sphinx-based projects.
 
+contact: [docs@slynconsulting.com](mailto:docs@slynconsulting.com)
+
 ## Training
 
 Get your team up and running using Sphinx to publish and deploy your docs.

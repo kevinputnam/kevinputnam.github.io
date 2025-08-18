@@ -16,7 +16,7 @@ author = 'Kevin Putnam'
 extensions = ['sphinx_design','myst_parser']
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store','.venv']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store','.venv','readme.md']
 
 
 
