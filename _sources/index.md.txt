@@ -10,6 +10,7 @@ Get your team up and running using Sphinx to publish and deploy your docs.
 
 Topics include:
 
+- Documentation as code
 - Installation and getting started
 - Setting up your `conf.py`
 - Optimize your project file hierarchy
