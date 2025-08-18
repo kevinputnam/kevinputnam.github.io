@@ -1,3 +1,3 @@
 # Fun
 
-This is a placeholder.
+[Black Ocean](https://kevinputnam.github.io/blackocean/)
