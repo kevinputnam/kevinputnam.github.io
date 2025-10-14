@@ -6,12 +6,15 @@
 
 ## Bootsrap your Documentation
 
-1. Provide a skeleton project that matches your team's requirements
-2. Generate a Sphinx project based on your existing Markdown or reStructuredText documentation
+Get your documentation website up and running in 1 month. Whether you're just starting out or have a collection of readmes, comments, and e-mailed documents that need wrangling, we can create order out of chaos and have proven workflows to get your team contributing and maintaining the docs quickly.
+
+We avoid lock-in by starting with off the shelf, open source software that is easy to use and maintain. As your needs evolve, we have the know-how to customize and grow your site.
 
 ## Custom Directives, Roles, and Extensions
 
-1. [sphinx-md](https://pypi.org/project/sphinx-md/) A Sphinx extension developed specifically to turn existing Markdown documentation in a GitHub repository into a working Sphinx project within minimal impact to existing doc structure.
+When the need arises (which isn't as often as you might think) we can create custom plug-ins for Sphinx or other tools that we use.
+
+For example, [sphinx-md](https://pypi.org/project/sphinx-md/) is a Sphinx extension we created specifically to turn existing Markdown documentation in a GitHub repository into a working Sphinx project within minimal impact to existing doc structure.
 
 ## Theme layout and appearance
 
