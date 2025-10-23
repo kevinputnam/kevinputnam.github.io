@@ -24,12 +24,12 @@ Topics include:
 I offer support for Sphinx-based documentation projects including:
 
 - Documentation bootstrap from scratch or with existing documentation - get started fast!
-- Custom Directives/Roles/Extensions (Python)
-- Theme layout and appearance (CSS/HTML/JS)
+- Custom Directives/Roles/Extensions
+- Customization of layout and appearance
 - API documentation integration including Doxygen
-- Source conversion to Open Source friendly formats (Markdown or reStructuredText)
-- Custom output targets (e.g. DITA)
-- Support for Internationalization (`.po` files)
+- Source conversion to Open Source friendly formats
+- Custom output targets
+- Support for Internationalization
 - Automated build and deployment
 
 I can help your team avoid uneccessary code maintenance and technical debt
