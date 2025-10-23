@@ -7,8 +7,8 @@ orphan: true
 Is a documentation workflow that inherits key tools and processes from inner and open source software development:
 
 * Issue Trackers
-* Version Control (Git)
-* Plain Text Markup (Markdown, reStructuredText, Asciidoc)
+* Version Control
+* Plain Text Markup 
 * Code Reviews
 * Automated Test and Deployment
 
