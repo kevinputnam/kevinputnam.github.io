@@ -30,3 +30,4 @@ html_theme_options = {
         "text": "Kevin Putnam"
     }
 }
+html_css_files = ['override.css']
