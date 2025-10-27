@@ -32,7 +32,7 @@ I offer support for Sphinx-based documentation projects including:
 - Support for Internationalization
 - Automated build and deployment
 
-I can help your team avoid uneccessary code maintenance and technical debt
+I can help your team avoid uneccessary code maintenance and technical debt.
 
 
 ```{toctree}
@@ -42,3 +42,7 @@ training
 services
 ```
 
+```{image} images/moongate.png
+:alt: moongate
+:target: other.html
+```

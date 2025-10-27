@@ -2,9 +2,9 @@
 orphan: true
 ---
 
-# Other
+# Side Work
 
-Stuff that isn't work related.
+A glimpse into some of my personal projects.
 
 ```{toctree}
 :maxdepth: 1
