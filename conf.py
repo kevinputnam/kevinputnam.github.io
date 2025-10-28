@@ -31,3 +31,5 @@ html_theme_options = {
     }
 }
 html_css_files = ['override.css']
+
+myst_enable_extensions = ["deflist"]
