@@ -1,8 +1,14 @@
 # Fun
 
+```{rst-class} pixel
+```
+
 ## [Black Ocean](https://kevinputnam.github.io/blackocean/)
 
-This website uses a custom HTML generator based on Docutils. I used as a means to learn more about how Docutils works and explore a different approach to loading the table of contents. Sphinx generates a relative table of contents for each page, whereas this site uses a frame to host a single copy of the table of contents that only loads once. While it is far less complex than Sphinx, it is suitable for many sites.
+This website uses a custom HTML generator based on Docutils. I used it as a means to learn more about how Docutils works and explore a different approach to loading the table of contents. Sphinx generates a relative table of contents for each page, whereas this site uses a frame to host a single copy of the table of contents that only loads once. While it is far less complex than Sphinx, it is suitable for many sites.
+
+```{rst-class} pixel
+```
 
 ## Basic Adventure Game
 
