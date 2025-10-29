@@ -1,4 +1,4 @@
-# Technical Documentation Consulting
+# Technical and Documentation Consulting
 
 Let me help you streamline your documentation publishing workflow. We'll figure out how to get from where you are to where you want to be whether you just need training or full technical support. I specialize in Sphinx-based projects.
 
