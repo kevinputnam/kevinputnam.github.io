@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Fun &#8212; Kevin Putnam  documentation</title>
+    <title>Application Development &#8212; Kevin Putnam  documentation</title>
   
   
   
@@ -44,9 +44,11 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/design-tabs.js?v=f930bc37"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'fun';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'app_dev';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Technical Documentation" href="tech_docs.html" />
+    <link rel="prev" title="Kevin Putnam - Developer" href="index.html" />
     
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -130,16 +132,16 @@
 <nav>
   <ul class="bd-navbar-elements navbar-nav">
     
-<li class="nav-item ">
-  <a class="nav-link nav-internal" href="training.html">
-    Training
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="#">
+    Application Development
   </a>
 </li>
 
 
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="services.html">
-    Services
+  <a class="nav-link nav-internal" href="tech_docs.html">
+    Technical Documentation
   </a>
 </li>
 
@@ -216,16 +218,16 @@
 <nav>
   <ul class="bd-navbar-elements navbar-nav">
     
-<li class="nav-item ">
-  <a class="nav-link nav-internal" href="training.html">
-    Training
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="#">
+    Application Development
   </a>
 </li>
 
 
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="services.html">
-    Services
+  <a class="nav-link nav-internal" href="tech_docs.html">
+    Technical Documentation
   </a>
 </li>
 
@@ -295,7 +297,7 @@
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Fun</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Application Development</span></li>
   </ul>
 </nav>
 </div>
@@ -312,19 +314,63 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="fun">
-<h1>Fun<a class="headerlink" href="#fun" title="Link to this heading">#</a></h1>
-<section class="pixel" id="black-ocean">
-<h2><a class="reference external" href="https://kevinputnam.github.io/blackocean/">Black Ocean</a><a class="headerlink" href="#black-ocean" title="Link to this heading">#</a></h2>
-<p>A website I built that uses a custom HTML generator based on Docutils. I used it as a means to learn more about how Docutils works and explore a different approach to creating the table of contents. Sphinx generates a relative table of contents for each page, whereas this site uses a frame to host a single copy of the table of contents that only loads once. While it is far less complex than Sphinx, it is suitable for many sites.</p>
+  <section id="application-development">
+<h1>Application Development<a class="headerlink" href="#application-development" title="Link to this heading">#</a></h1>
+<p>Let me take your ideas and turn them into an application that works for you. I
+have a lot of experience working with both engineers and less-technical users.
+Some of the keys to my success:</p>
+<ol class="arabic simple">
+<li><p>Collect requirements with emphasis on understanding most complex usecase</p></li>
+<li><p>Provide mockups and demos as required to meet customer expectations</p></li>
+<li><p>Maintain clear communication on progress at each stage</p></li>
+<li><p>Thorough white and black box testing</p></li>
+</ol>
+<section id="example-projects">
+<h2>Example Projects<a class="headerlink" href="#example-projects" title="Link to this heading">#</a></h2>
+<section id="sphinx2dita-python">
+<h3>Sphinx2Dita (Python)<a class="headerlink" href="#sphinx2dita-python" title="Link to this heading">#</a></h3>
+<p>As open source methods grew in popularity within Intel, it became necessary to
+enable publishing to Intel Developer Zone directly from GitHub source. I
+created a solution that vastly reduced the complexity of the existing solution
+and reduced the number of methods needed to be maintained by 50%. Put simply,
+this extension allowed the user to generate a fully publishable DITA XML book
+from Sphinx with zero manual steps.</p>
 </section>
-<section class="pixel" id="basic-adventure-game">
-<h2>Basic Adventure Game<a class="headerlink" href="#basic-adventure-game" title="Link to this heading">#</a></h2>
-<p>There are a lot of 2D game engines out there that are way more complex than I need. I set out to learn how to use HTML 5 and canvases to create my own engine and share code with an in-browser game editor with no additional dependencies. Very much alpha software, but also still in development.</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://kevinputnam.github.io/js_basic_game/">Play the game</a></p></li>
-<li><p><a class="reference external" href="https://kevinputnam.github.io/js_basic_game/editor.html">Use the editor</a></p></li>
-</ul>
+<section id="sphinx-md-python">
+<h3><a class="reference external" href="https://pypi.org/project/sphinx-md/">Sphinx-md</a> (Python)<a class="headerlink" href="#sphinx-md-python" title="Link to this heading">#</a></h3>
+<p>I saw a need to deliver a method for software teams with large amounts of
+existing documentation just hanging out in GitHub to be able to publish a full
+website to improve both the navigation and findability of their docs. As a
+result, I built this tool to extend the Sphinx documentation generator to fix
+some of the issues that crop up when cross-linking within GitHub.</p>
+</section>
+<section id="redocs-gui-python-tkinter">
+<h3>reDocs GUI (Python/Tkinter)<a class="headerlink" href="#redocs-gui-python-tkinter" title="Link to this heading">#</a></h3>
+<p>A GUI application that could 100% replace the need for technical writers to use
+a terminal to build their Sphinx based documentation. It would automatically
+create a virtual environment and install dependencies for each project and make
+“build” and “clean” buttons available in the GUI while displaying build output
+in the window.</p>
+</section>
+<section id="docs-ci-python-and-github-actions">
+<h3>Docs CI (Python and GitHub Actions)<a class="headerlink" href="#docs-ci-python-and-github-actions" title="Link to this heading">#</a></h3>
+<p>Bootstrapped an end-to-end solution for automatically generating and testing
+documentation artifacts on a weekly and on-demand basis for more than 20
+software projects. Before this only the technical writer associated with a
+given project knew how to publish each project making it a severe bottleneck.</p>
+</section>
+<section id="automated-validation-environment-c-net">
+<h3>Automated Validation Environment (C++/.NET)<a class="headerlink" href="#automated-validation-environment-c-net" title="Link to this heading">#</a></h3>
+<p>I eventually became lead developer focusing on
+the UI and performance improvements of our in-house automation framework used
+to perform everything from smoke testing to power failure integrity testing of
+prototype Intel SSDs.</p>
+</section>
+<section id="nandstats-c-net">
+<h3>NANDstats (C++/.NET)<a class="headerlink" href="#nandstats-c-net" title="Link to this heading">#</a></h3>
+<p>Low level Windows utility for collecting NAND usage statistics of prototype
+Intel SSDs attached to the system.</p>
+</section>
 </section>
 </section>
 
@@ -338,6 +384,24 @@
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Kevin Putnam - Developer</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="tech_docs.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Technical Documentation</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -357,8 +421,15 @@
   </div>
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#black-ocean">Black Ocean</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-adventure-game">Basic Adventure Game</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-projects">Example Projects</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sphinx2dita-python">Sphinx2Dita (Python)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sphinx-md-python">Sphinx-md (Python)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#redocs-gui-python-tkinter">reDocs GUI (Python/Tkinter)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#docs-ci-python-and-github-actions">Docs CI (Python and GitHub Actions)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#automated-validation-environment-c-net">Automated Validation Environment (C++/.NET)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#nandstats-c-net">NANDstats (C++/.NET)</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
@@ -366,7 +437,7 @@
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="_sources/fun.md.txt"
+      <li><a href="_sources/app_dev.md.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div></div>
