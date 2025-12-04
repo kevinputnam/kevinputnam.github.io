@@ -29,6 +29,12 @@ tech_docs
 - I love to mentor and learn
 - Results oriented
 
+```{toctree}
+:hidden:
+
+resources
+```
+
 ```{image} images/moongate.png
 :alt: moongate
 :target: other.html
