@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Application Development &#8212; Kevin Putnam  documentation</title>
+    <title>Resources &#8212; Kevin Putnam  documentation</title>
   
   
   
@@ -44,11 +44,10 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/design-tabs.js?v=f930bc37"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'app_dev';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'resources';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Technical Documentation" href="tech_docs.html" />
-    <link rel="prev" title="Kevin Putnam - Developer" href="index.html" />
+    <link rel="prev" title="Services" href="services.html" />
     
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -132,8 +131,8 @@
 <nav>
   <ul class="bd-navbar-elements navbar-nav">
     
-<li class="nav-item current active">
-  <a class="nav-link nav-internal" href="#">
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="app_dev.html">
     Application Development
   </a>
 </li>
@@ -146,8 +145,8 @@
 </li>
 
 
-<li class="nav-item ">
-  <a class="nav-link nav-internal" href="resources.html">
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="#">
     Resources
   </a>
 </li>
@@ -225,8 +224,8 @@
 <nav>
   <ul class="bd-navbar-elements navbar-nav">
     
-<li class="nav-item current active">
-  <a class="nav-link nav-internal" href="#">
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="app_dev.html">
     Application Development
   </a>
 </li>
@@ -239,8 +238,8 @@
 </li>
 
 
-<li class="nav-item ">
-  <a class="nav-link nav-internal" href="resources.html">
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="#">
     Resources
   </a>
 </li>
@@ -311,7 +310,7 @@
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Application Development</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Resources</span></li>
   </ul>
 </nav>
 </div>
@@ -328,62 +327,115 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="application-development">
-<h1>Application Development<a class="headerlink" href="#application-development" title="Link to this heading">#</a></h1>
-<p>Let me take your ideas and turn them into an application that works for you. I
-have a lot of experience working with both engineers and less-technical users.
-Some of the keys to my success:</p>
+  <section id="resources">
+<h1>Resources<a class="headerlink" href="#resources" title="Link to this heading">#</a></h1>
+<nav class="contents local" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#docs-as-code" id="id1">Docs as Code</a></p>
+<ul>
+<li><p><a class="reference internal" href="#getting-started" id="id2">Getting started</a></p></li>
+<li><p><a class="reference internal" href="#reference" id="id3">Reference</a></p></li>
+</ul>
+</li>
+</ul>
+</nav>
+<section id="docs-as-code">
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Docs as Code</a><a class="headerlink" href="#docs-as-code" title="Link to this heading">#</a></h2>
+<section id="getting-started">
+<h3><a class="toc-backref" href="#id2" role="doc-backlink">Getting started</a><a class="headerlink" href="#getting-started" title="Link to this heading">#</a></h3>
+<p>This website is created using the Sphinx static site generator. Every page has
+a source link that will show you the syntax used to create it. You can also
+browse the source in the <a class="reference external" href="https://github.com/kevinputnam/kevinputnam.github.io">github repo</a>. GitHub provides a lot of free
+resources that make automating workflows and collaborating a lot easier.</p>
+<ul class="simple">
+<li><p>Issue tracking and Pull request management</p></li>
+<li><p>Forking (making a personal copy of a repository)</p></li>
+<li><p>GitHub Actions</p></li>
+</ul>
+<p>All of which are the same workflows that both professional and open source
+teams use to develop software. And it’s all free.</p>
+<p>If you do decide to look at the source repository, it might seem pretty overwhelming. The most important thing to know is where to start.</p>
 <ol class="arabic simple">
-<li><p>Collect requirements with emphasis on understanding most complex usecase</p></li>
-<li><p>Provide mockups and demos as required to meet customer expectations</p></li>
-<li><p>Maintain clear communication on progress at each stage</p></li>
-<li><p>Thorough white and black box testing</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">index.md</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">conf.py</span></code></p></li>
 </ol>
-<section id="example-projects">
-<h2>Example Projects<a class="headerlink" href="#example-projects" title="Link to this heading">#</a></h2>
-<section id="sphinx2dita-python">
-<h3>Sphinx2Dita (Python)<a class="headerlink" href="#sphinx2dita-python" title="Link to this heading">#</a></h3>
-<p>As open source methods grew in popularity within Intel, it became necessary to
-enable publishing to Intel Developer Zone directly from GitHub source. I
-created a solution that vastly reduced the complexity of the existing solution
-and reduced the number of methods needed to be maintained by 50%. Put simply,
-this extension allowed the user to generate a fully publishable DITA XML book
-from Sphinx with zero manual steps.</p>
+<p>These are the only 2 files needed to start building a Sphinx website.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">index.md</span></code> or <code class="docutils literal notranslate"><span class="pre">index.rst</span></code> is the root page for the hierarchy of the site.
+Every other page will link back to it eventually through cascading <code class="docutils literal notranslate"><span class="pre">toctree</span></code>
+directives. These look like (markdown):</p>
+<div class="highlight-md notranslate"><div class="highlight"><pre><span></span>```{toctree}
+page1
+page2
+```
+</pre></div>
+</div>
+<p>or like this (reStructuredText):</p>
+<div class="highlight-rest notranslate"><div class="highlight"><pre><span></span><span class="p">..</span> <span class="ow">toctree</span><span class="p">::</span>
+
+   page1
+   page2
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">page1</span></code> could have it’s own <code class="docutils literal notranslate"><span class="pre">toctree</span></code> and so on creating the nested hierarchy
+that will ultimately be reflected in the site’s table of contents.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> is a Python file that contains the metadata configuring the theme
+and other information required by Sphinx to build the docs.</p>
+<p>At a bare minimum your <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> could look like this:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">project</span> <span class="o">=</span> <span class="s1">&#39;Name of Project&#39;</span>
+<span class="n">copyright</span> <span class="o">=</span> <span class="s1">&#39;2025, Name of Owner&#39;</span>
+<span class="n">author</span> <span class="o">=</span> <span class="s1">&#39;Name of Author&#39;</span>
+
+<span class="n">html_theme</span> <span class="o">=</span> <span class="s1">&#39;name_of_sphinx_theme&#39;</span>
+
+</pre></div>
+</div>
+<p>The good news is that once Sphinx is installed, it is smart enough to create
+all of this automatcally using the <code class="docutils literal notranslate"><span class="pre">sphinx-quickstart</span></code> command. Running it in
+the directory where you want to create a new project will start a short
+interactive session that prompts you for some basic information and creates a
+very basic templated Sphinx project.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sphinx-quickstart
+</pre></div>
+</div>
 </section>
-<section id="sphinx-md-python">
-<h3><a class="reference external" href="https://pypi.org/project/sphinx-md/">Sphinx-md</a> (Python)<a class="headerlink" href="#sphinx-md-python" title="Link to this heading">#</a></h3>
-<p>I saw a need to deliver a method for software teams with large amounts of
-existing documentation just hanging out in GitHub to be able to publish a full
-website to improve both the navigation and findability of their docs. As a
-result, I built this tool to extend the Sphinx documentation generator to fix
-some of the issues that crop up when cross-linking within GitHub.</p>
-</section>
-<section id="redocs-gui-python-tkinter">
-<h3>reDocs GUI (Python/Tkinter)<a class="headerlink" href="#redocs-gui-python-tkinter" title="Link to this heading">#</a></h3>
-<p>A GUI application that could 100% replace the need for technical writers to use
-a terminal to build their Sphinx based documentation. It would automatically
-create a virtual environment and install dependencies for each project and make
-“build” and “clean” buttons available in the GUI while displaying build output
-in the window.</p>
-</section>
-<section id="docs-ci-python-and-github-actions">
-<h3>Docs CI (Python and GitHub Actions)<a class="headerlink" href="#docs-ci-python-and-github-actions" title="Link to this heading">#</a></h3>
-<p>Bootstrapped an end-to-end solution for automatically generating and testing
-documentation artifacts on a weekly and on-demand basis for more than 20
-software projects. Before this only the technical writer associated with a
-given project knew how to publish each project making it a severe bottleneck.</p>
-</section>
-<section id="automated-validation-environment-c-net">
-<h3>Automated Validation Environment (C++/.NET)<a class="headerlink" href="#automated-validation-environment-c-net" title="Link to this heading">#</a></h3>
-<p>I eventually became lead developer focusing on
-the UI and performance improvements of our in-house automation framework used
-to perform everything from smoke testing to power failure integrity testing of
-prototype Intel SSDs.</p>
-</section>
-<section id="nandstats-c-net">
-<h3>NANDstats (C++/.NET)<a class="headerlink" href="#nandstats-c-net" title="Link to this heading">#</a></h3>
-<p>Low level Windows utility for collecting NAND usage statistics of prototype
-Intel SSDs attached to the system.</p>
+<section id="reference">
+<h3><a class="toc-backref" href="#id3" role="doc-backlink">Reference</a><a class="headerlink" href="#reference" title="Link to this heading">#</a></h3>
+<dl class="simple myst">
+<dt>Python</dt><dd><p>Popular programming language that must be installed to run Sphinx.</p>
+</dd>
+<dt>Sphinx</dt><dd><p>A static site generator for technical documentation that was created
+to document the Python programming language.</p>
+</dd>
+<dt>reStructuredText</dt><dd><p>A human readable text markup language that is the native markup for Sphinx.
+It is defined by the Docutils project. There are also Sphinx specific
+directives like the <code class="docutils literal notranslate"><span class="pre">toctree</span></code> directive.</p>
+</dd>
+<dt>Markdown</dt><dd><p>Another human readable text markup language that is arguably far more
+popular than reStructuredText.</p>
+</dd>
+<dt>Directives</dt><dd><p>Define blocks that are handled in a particular way by Sphinx. They can
+also be nested, so you might have an <code class="docutils literal notranslate"><span class="pre">image</span></code> or <code class="docutils literal notranslate"><span class="pre">codeblock</span></code> inside of
+a <code class="docutils literal notranslate"><span class="pre">note</span></code>.</p>
+</dd>
+<dt>Roles</dt><dd><p>Define inline text that is handled in a specific way by Sphinx. They
+cannot be nested.</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Sphinx requires the use of the Command Line Interface (CLI).</p>
+</div>
+<p>For those that are interested in diving deeper:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://wiki.python.org/moin/BeginnersGuide/Download">Installing Python (python.org)</a></p></li>
+<li><p><a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/installation.html">Installing Sphinx (sphinx-doc)</a></p></li>
+<li><p><a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html">Sphinx Specific reStructuredText (sphinx-doc)</a></p></li>
+<li><p><a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html">restructedText Specification (docutils)</a></p></li>
+<li><p><a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html">reStructuredText Directives (docutils)</a></p></li>
+<li><p><a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/roles.html">reStructuredText Roles (docutils)</a></p></li>
+<li><p><a class="reference external" href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">GitHub Flavored Markdown (github)</a></p></li>
+<li><p><a class="reference external" href="https://myst-parser.readthedocs.io/en/v0.15.1/sphinx/intro.html">Sphinx Specific Markdown (Myst)</a></p></li>
+</ul>
 </section>
 </section>
 </section>
@@ -399,22 +451,13 @@ Intel SSDs attached to the system.</p>
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="index.html"
+       href="services.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Kevin Putnam - Developer</p>
+        <p class="prev-next-title">Services</p>
       </div>
-    </a>
-    <a class="right-next"
-       href="tech_docs.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Technical Documentation</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -435,13 +478,9 @@ Intel SSDs attached to the system.</p>
   </div>
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-projects">Example Projects</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sphinx2dita-python">Sphinx2Dita (Python)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sphinx-md-python">Sphinx-md (Python)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#redocs-gui-python-tkinter">reDocs GUI (Python/Tkinter)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#docs-ci-python-and-github-actions">Docs CI (Python and GitHub Actions)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#automated-validation-environment-c-net">Automated Validation Environment (C++/.NET)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#nandstats-c-net">NANDstats (C++/.NET)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#docs-as-code">Docs as Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting started</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reference">Reference</a></li>
 </ul>
 </li>
 </ul>
@@ -451,7 +490,7 @@ Intel SSDs attached to the system.</p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="_sources/app_dev.md.txt"
+      <li><a href="_sources/resources.md.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div></div>
