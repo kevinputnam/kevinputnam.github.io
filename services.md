@@ -10,6 +10,13 @@ Get your documentation website up and running in 1 month. Whether you're just st
 
 We avoid lock-in by starting with off the shelf, open source software that is easy to use and maintain. As your needs evolve, we have the know-how to customize and grow your site.
 
+## Verify your Documentation
+
+Nothing is more frustrating than out of date or incorrect docs. I am an
+experienced engineer with lots of validation experience. I can review your
+documentation, identify new user pain points, and work with engineering to
+update the documentation.
+
 ## Custom Directives, Roles, and Extensions
 
 When the need arises (which isn't as often as you might think) we can create custom plug-ins for Sphinx or other tools that we use.
