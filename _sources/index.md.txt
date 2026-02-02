@@ -18,6 +18,7 @@ I started my career as a validation engineer. I know how to test, and I know how
 
 app_dev
 tech_docs
+validation
 ```
 
 ## About Me
