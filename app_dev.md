@@ -54,3 +54,7 @@ prototype Intel SSDs.
 
 Low level Windows utility for collecting NAND usage statistics of prototype
 Intel SSDs attached to the system.
+
+### [NVMe PCIe max performance calculator](https://kevinputnam.github.io/nvme_performance_calculator/) (Java Script)
+
+A Java Script based tool for computing the max NVMe throughput based on various settings. I created it after seeing a colleague's spreadsheet. I foresaw a lot of demand for the tool and wanted to make sure I could distribute as widely as possible without exposing users to the risk of messing it up or getting a corrupted copy.
