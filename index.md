@@ -25,13 +25,13 @@ dev_rel
 ## About Me
 
 - Entrepreneurial. If I see an opportunity for innovation, I will advocate and deliver.
-- A career built on Developer Relations
+- Innately curious.
+- A career built on Developer Relations.
 - Storage Technologies R&D taught me that a demo is worth ten presentations.
 - Primarily Python (often using Tkinter) but C++/.NET, HTML/CSS/JS, and a few others.
 - Highly experienced validation engineer.
 - Very independent and self-directed as well as enjoying teamwork.
-- I love to mentor and learn
-- Results oriented
+- Results oriented.
 
 ```{toctree}
 :hidden:
