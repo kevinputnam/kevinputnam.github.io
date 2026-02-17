@@ -23,7 +23,7 @@ Topics include:
 
 I offer support for Sphinx-based documentation projects including:
 
-- Documentation bootstrap from scratch or with existing documentation - get started fast!
+- Documentation bootstrap from scratch or with existing documentation
 - Custom Directives/Roles/Extensions
 - Customization of layout and appearance
 - API documentation integration including Doxygen
