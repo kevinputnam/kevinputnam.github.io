@@ -77,3 +77,13 @@ This engagement is well-suited for teams that:
 - Care about customer adoption and time-to-value
 - Suspect documentation may be a hidden source of friction
 - Want an independent, decision-quality assessment
+
+### Price Structure
+
+Validation Review ($2,500)
+: Targeted validation of one core documentation path (for example: onboarding, tutorial, or quickstart), including findings and recommendations.
+
+Workflow Validation ($6,500)
+: Broader review of documentation workflows, including contribution process, CI/CD integration, structure, and multiple user paths.
+
+These engagements are designed to be low-overhead and typically complete within 1–2 weeks.

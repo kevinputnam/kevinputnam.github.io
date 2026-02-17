@@ -19,14 +19,15 @@ I started my career as a validation engineer. I know how to test, and I know how
 app_dev
 tech_docs
 validation
+dev_rel
 ```
 
 ## About Me
 
 - Entrepreneurial. If I see an opportunity for innovation, I will advocate and deliver.
-- Storage Technologies R&D taught me that a demo is worth ten presentations (or more).
+- A career built on Developer Relations
+- Storage Technologies R&D taught me that a demo is worth ten presentations.
 - Primarily Python (often using Tkinter) but C++/.NET, HTML/CSS/JS, and a few others.
-- I’m a quick study and will learn any framework. Novelty is the spice of life, after all.
 - Highly experienced validation engineer.
 - Very independent and self-directed as well as enjoying teamwork.
 - I love to mentor and learn
@@ -36,9 +37,4 @@ validation
 :hidden:
 
 resources
-```
-
-```{image} images/moongate.png
-:alt: moongate
-:target: other.html
 ```
