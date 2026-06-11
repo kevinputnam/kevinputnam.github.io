@@ -1,6 +1,6 @@
 # Kevin Putnam
 
-Whether working as a validation engineer, tools developer, or technical writer, I have had great success supporting development teams. That success was built on my ability to grasp technical subjects and create tools, documents, demos, videos, and test plans that aligned with program goals.
+Whether working as a validation engineer, tools developer, or technical writer, I have had great success supporting development teams. That success was built on my ability to grasp technical subjects and create tools, documents, demos, videos, and test plans that align with program goals.
 
 {download}`Resume <_downloads/kevin_putnam_resume.pdf>`
 
