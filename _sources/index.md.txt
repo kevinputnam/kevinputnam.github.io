@@ -1,13 +1,6 @@
 # Kevin Putnam
 
-I am an expert at taking software projects from ideation to delivery. I’ve been
-successful in multiple domains, whether working with low level stat collection,
-storage test automation, or documentation tools. I use a holistic approach
-grounded in sound design principles, and I’m able to balance all aspects of
-application design to deliver stable, high quality applications that are just
-complex enough.
-
-I started my career as a validation engineer. I know how to test, and I know how to find edge cases. 
+Whether working as a validation engineer, tools developer, or technical writer, I have had great success supporting development teams. That success was built on my ability to grasp technical subjects and create tools, documents, demos, videos, and test plans that aligned with program goals.
 
 {download}`Resume <_downloads/kevin_putnam_resume.pdf>`
 
